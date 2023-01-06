@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .App {
   text-align: center;
+  font-size: 20px;
+  background-color: rgba(232,217,217,.3);
+  font-family: 'Poppins';
 }
+
+h1{
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.title{
+  padding: 0%;
+  text-shadow: #282c34 3px 0 10px;
+}
+
+.table{
+  padding-left: 27.5%;
+  border-bottom: 1px solid;
+}
+
+.table td{
+  border-top: 1px solid;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.but1{
+  background-color : #FB3B49;
+  color : white;
+  text-align : center;
+  text-decoration : none;
+  padding : 10px 30px 10px 30px;
+  font-size : 1em;
+  box-shadow : 8px 8px 0 #282c34
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +64,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.pic{
+  width: 120px;
+  
 }
 
 .App-link {
